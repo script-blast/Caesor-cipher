@@ -1,0 +1,42 @@
+
+body{
+    background-image: url("R (2).jpg");
+    font-family: monospace;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #180A1A;
+    color:#F58319;
+    text-align:center;
+}
+.main{
+    padding:30px;
+    background-color: #ffffff90;
+    border-radius:20px 20px 20px 20px;
+}
+button{
+    font-weight: bold;
+    background-color: lightgreen;
+    padding:10px;
+    border-radius: 2px;
+    border:0.2px solid green;
+}
+input:active,button:hover{
+    background-color:yellow;
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    color:black;
+}
+h3{
+    font-size:1.8em;
+    color:black;
+    display:inline-block;
+}
+h4{
+    font-size: 1.5em;
+    color:black;
+}
